@@ -21,3 +21,7 @@ It features a **public-facing news-style interface**, a **registered user intera
 - **Security:** Spring Security (Role-Based Access Control)
 - **Build Tool:** Maven
 - **Template Engine:** Thymeleaf
+
+---
+
+*"Through the lens, we tell the stories of the wild."*
