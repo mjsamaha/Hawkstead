@@ -1,0 +1,16 @@
+Fragments (Reusable UI Components)
+header.html	        Contains the <head> section (meta tags, <title>, Tailwind <link> or <script> includes). Keeps page head elements consistent across all pages.
+navbar.html	        The site’s top navigation bar (links to Home, Blog, About, Contact, etc.). Ensures navigation is consistent and easy to update in one place.
+footer.html	        Contains the site footer (copyright, social media links, legal links).
+sidebar.html	    Optional section for blog categories, tags, or featured posts—helps with navigation and engagement.
+post-card.html	    A reusable “card” layout for displaying a blog post preview (image, title, excerpt, read more link). Used in blog list pages.
+
+Main Page Templates
+index.html	        Home page for the blog site. Often contains a featured posts section and latest blog entries.
+blog-list.html	    Displays a paginated list of blog posts using the post-card fragment. Acts as the main blog feed.
+blog-detail.html    Shows a single blog post in full detail, including author, date, tags, and related posts.
+about.html	        Page introducing the blog author, the blog’s mission, and other personal/professional background info.
+contact.html	    Page with a contact form (name, email, message). Can later be wired to send emails or store messages.
+login.html	        User login page (for authors, admins, or registered readers).
+register.html	    User registration form (for new contributors or subscribers).
+error.html	        General fallback error page (can be styled to match site theme). Useful for HTTP 404 or 500 errors.
